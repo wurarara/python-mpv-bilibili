@@ -1,24 +1,26 @@
-# python-mpv-bilibili
-***用python脚本一键调用mpv播放bilibili视频***
+# Python-Mpv-Bilibili
+***Use python call mpv.exe to play videos from bilibili***
 
-更具体的内容可以前往我的GitHub page查看 [**使用Python调用MPV播放B站视频（一）**](https://wurarara.github.io/)
+More specific content can go to my [**GitHub page**](https://wurarara.github.io/)
 
-## 以下做一些简单的讲解
+## This is a simple explanation
 
-### 目的
+### Purpose
 ```
-1. 解决每一次调用mpv播放器的时候都需要进行的繁琐步骤。
-2. you-get命令行教程居多，py文件的写法反而相对较少，所以写出来方便有需要的人查阅。
+1. Solve the cumbersome steps that need to be performed every time the mpv player is called.
+2. There are many you-get command line tutorials, but there are relatively few ways to write py files, so I write them for the convenience of those who need them.
 ```
-### 步骤
 
-首先是获取cookies，我用的是谷歌的扩展程序EditThisCookie，登录bilibili后进入视频播放页面，右键空白处然后选择EditThisCookie，选择扳手（设置），选择 options，找到 Choose the preferred export format for cookies，选择 Netscape HTTP Cookies File，然后回到刚才的页面导出cookies，新建cookies.txt文件，粘贴进去。
+### Start
 
-下面的步骤不再多言，注释写的很清楚，更具体的可以查看上方给出的文章。
+The first is to obtain cookies. I use Google’s extension EditThisCookie. After logging in to bilibili, enter the video playback page, right-click on the blank space and select EditThisCookie, select the wrench (settings), select options, find Choose the preferred export format for cookies, and select Netscape HTTP Cookies File, then return to the previous page to export cookies, create a new cookies.txt file, and paste it in.
 
-### 两个问题
+Then don't need say more about the others, because it is clearly written in the comments of the py file.
+If you still have questions, look at the above link that github page~
+
+### Remaining problems
 ```
-1. 会自动下载bilibili视频弹幕，本人无法解决。
-2. 不是打开即可运行，本人设置了打开方式为IDLE，然后F5运行，速度相对快一些，其他例如vscode，prcharm的话相对慢。
+1. The bilibili video Danmaku will be downloaded automatically, I cannot solve.
+2. It's not automatic. I set the opening method to IDLE, and then F5 to run it. The speed is relatively fast. Others such as vscode and prcharm are relatively slow.
 ```
-<br>有解决办法的话欢迎提出~
+<br>if you can resovle, looking forward to your help~
