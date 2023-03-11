@@ -1,5 +1,5 @@
 # Python-Mpv-Bilibili
-***Use python call mpv.exe to play videos from bilibili***
+***Use python call mpv.exe to play >>> Better quality videos <<< from bilibili***
 
 More specific content can go to my [**GitHub page**](https://wurarara.github.io/)
 
@@ -24,3 +24,8 @@ If you still have questions, look at the above link that github page~
 2. It's not automatic. I set the opening method to IDLE, and then F5 to run it. The speed is relatively fast. Others such as vscode and prcharm are relatively slow.
 ```
 <br>if you can resovle, looking forward to your help~
+
+### Other
+You also can use "mpv https://www.bilibili.com/video/xxxxxxx" play video.
+
+Sure,it's easier but low quality~
